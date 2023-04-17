@@ -1,0 +1,168 @@
+body, h1, h3{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+header{
+    position: relative;
+    background-image: url("for project/mt cook.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 31.25rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(245, 249, 249, 0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 3rem;
+    display: flex;
+}
+
+.heading h3{
+    height: 2rem;
+    width: 7rem;
+    font-size: 1rem;
+    margin: 1rem 1rem;
+    text-align: center;
+    font-family: cursive;
+}
+
+.travelLogo{
+    position: relative;
+    background-color: rgba(3, 3, 3, 0.5);
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin: 300px auto 40px auto;
+    padding: 0 20px;
+    display: flex;
+    /* flex-shrink: initial; */
+    /* justify-content: space-evenly; */
+    font-size: 3rem;
+    color: aliceblue;
+}
+
+/* Activities container */
+.activities{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 2rem 0;
+    position: relative;
+    justify-content: center;
+    /* border:  2px solid rgb(4, 144, 251); */
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Image style */
+.activities img{
+    height: 90%;
+    width: 100%;
+}
+
+/* Button design */
+.activities button{
+    font-family: cursive;
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 100%;
+    border-radius: 1rem;
+    background-color: rgb(175, 218, 255);
+    cursor: pointer;
+}
+
+/* Paragraph style */
+.activities p{
+    justify-content: center;
+    margin: 1rem;
+}
+
+/* Activities entry photo on left */
+.onsenSpa, .glacierHeliHike, .hobbiton{
+    display: flex;
+    height: 100%;
+    width: 70%;
+    /* border:  2px solid rgb(132, 251, 4); */
+    margin: 1rem;
+}
+
+/* Activities entry photo on right */
+.tekapoSprings, .milfordCruise{
+    display: flex;
+    height: 100%;
+    width: 70%;
+    /* border:  2px solid rgb(251, 111, 4); */
+    margin: 1rem;
+    flex-direction: row-reverse;
+}
+
+/* Images Container */
+.onsenImage, .tekapoImage, .glacierImage, .milfordImage, .hobbitonImage{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    /* border:  2px solid rgb(4, 144, 251); */
+}
+
+/* Button and paragraph container */
+.onsenInfo, .tekapoInfo, .glacierInfo, .milfordInfo, .hobbitonInfo{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    /* border:  2px solid rgb(251, 4, 169); */
+    flex-direction: column;
+}
+
+/* Footer */
+.footerItems{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(75, 77, 77, 0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 3rem;
+    position: relative;
+}
+
+footer h3{
+    height: 2rem;
+    width: 7rem;
+    font-size: 1rem;
+    margin: 1rem 1rem;
+    text-align: center;
+    font-family: cursive;
+}
+
+/* Responsive */
+@media screen and (min-width:1001px) and (max-width:1300px){
+    .activities p{
+        font-size: 0.70rem;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .onsenSpa, .glacierHeliHike, .tekapoSprings, .milfordCruise{
+        flex-direction: column;
+    }
+
+    .onsenImage, .tekapoImage, .glacierImage, .milfordImage{
+        width: 100%;
+    }
+    .onsenInfo, .tekapoInfo, .glacierInfo, .milfordInfo{
+        margin-top: 1rem;
+        width: 100%;
+    }
+}

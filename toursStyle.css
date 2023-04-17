@@ -1,0 +1,117 @@
+html {
+    font-size: 16px;
+}
+
+body, h1, h3{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+header{
+    position: relative;
+    background-image: url("for project/mt cook.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 31.25rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(245, 249, 249, 0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 3rem;
+    display: flex;
+}
+
+.heading h3{
+    height: 2rem;
+    width: 7rem;
+    font-size: 1rem;
+    margin: 1rem 1rem;
+    text-align: center;
+    font-family: cursive;
+}
+
+.travelLogo{
+    position: relative;
+    background-color: rgba(3, 3, 3, 0.5);
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin: 300px auto 40px auto;
+    padding: 0 20px;
+    display: flex;
+    /* flex-shrink: initial; */
+    /* justify-content: space-evenly; */
+    font-size: 3rem;
+    color: aliceblue;
+}
+
+/* Photo Container */
+.photo{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 2rem 0;
+    position: relative;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/* Image setting*/
+.photo img{
+    height: 100%;
+    width: 100%;
+    flex: auto;
+}
+
+/* Button setting */
+.photo button{
+    font-family: cursive;
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 100%;
+    border-radius: 1rem;
+    background-color: rgb(175, 218, 255);
+    cursor: pointer;
+}
+
+/* Tours container */
+.milfordSound, .queenstown, .westCoast, .mountCook, .hawkesBay, .rotorua{
+    width: 25rem;
+    height: 100%;
+    margin: 1rem;
+    /* border:  2px solid rgb(4, 144, 251); */
+}
+
+/* Footer */
+.footerItems{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(75, 77, 77, 0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 3rem;
+    position: relative;
+}
+
+footer h3{
+    height: 2rem;
+    width: 7rem;
+    font-size: 1rem;
+    margin: 1rem 1rem;
+    text-align: center;
+    font-family: cursive;
+}

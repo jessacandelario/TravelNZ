@@ -1,0 +1,384 @@
+html {
+    font-size: 16px;
+}
+
+body, h1, h3{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header{
+    position: relative;
+    background-image: url("for project/mt cook.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 31.25rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(245, 249, 249, 0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 3rem;
+}
+
+.heading h3{
+    height: 2rem;
+    width: 7rem;
+    font-size: 1rem;
+    margin: 1rem 1rem;
+    text-align: center;
+    font-family: cursive;
+}
+
+.travelLogo{
+    position: relative;
+    background-color: rgba(3, 3, 3, 0.5);
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin: 300px auto 40px auto; 
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    font-size: 3rem;
+    color: aliceblue;
+}
+
+.introduction{
+    margin: 0 10%;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.introduction button{
+    font-family: cursive;
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 20rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(175, 218, 255);
+    cursor: pointer;
+}
+
+/*photo container */
+.photo{
+    height: 50rem;
+    width: 100%;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.milford, .pancakeRocks, .glenorchy, .hokitika, .bluePools, .queenstown, 
+.glacier, .lakeMapourika, .tekapo, .hobbiton, .wanaka, .rotorua{
+    background-size: cover;
+    background-position: center;
+}
+
+/* photos in grid */
+.milford{
+    background-image: url("for project/Milford Sound.jpg");
+    grid-row: 1 / span 1;
+    grid-column: 1/ span 1;
+}
+
+.hokitika{
+    background-image: url("for project/Hokitika Gorge.jpg");
+    grid-row: 1 / span 1;
+    grid-column: 2/ span 1;
+}
+
+.pancakeRocks{
+    background-image: url("for project/Pancake Rocks.jpg");
+    grid-row: 1 / span 1;
+    grid-column: 3/ span 1;
+}
+
+.queenstown{
+    background-image: url("for project/Queenstown night.jpg");
+    grid-row: 1 / span 1;
+    grid-column: 4/ span 1;
+}
+
+.glenorchy{
+    background-image: url("for project/Glenorchy.jpg");
+    grid-row: 2 / span 1;
+    grid-column: 1/ span 1;
+}
+
+.glacier{
+    background-image: url("for project/Glaciers.jpg");
+    grid-row: 2 / span 1;
+    grid-column: 2/ span 1;
+}
+
+.bluePools{
+    background-image: url("for project/Blue Pools.jpg");
+    grid-row: 2 / span 1;
+    grid-column: 3/ span 1;
+}
+
+.lakeMapourika{
+    background-image: url("for project/Lake Mapourika.jpg");
+    grid-row: 2 / span 1;
+    grid-column: 4/ span 1;
+}
+
+.tekapo{
+    background-image: url("for project/Tekapo.jpg");
+    grid-row: 3 / span 1;
+    grid-column: 1/ span 1;
+}
+
+.hobbiton{
+    background-image: url("for project/Hobbiton.jpg");
+    grid-row: 3 / span 1;
+    grid-column: 2/ span 1;
+}
+
+.wanaka{
+    background-image: url("for project/Wanaka Tree.jpg");
+    grid-row: 3 / span 1;
+    grid-column: 3/ span 1;
+}
+
+.rotorua{
+    background-image: url("for project/rotorua.jpg");
+    grid-row: 3 / span 1;
+    grid-column: 4/ span 1;
+}
+
+/* Inquire Box */
+.contact{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(40 209 209 / 20%);
+    border: 2px solid black;
+    height: 28rem;
+    width: 28rem;
+    display: flex;
+    margin: 5rem auto;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact h3{
+    margin: 2rem;
+    font-size: 1.8rem;
+}
+
+.form {
+    margin-left: 2rem;
+}
+
+.formMessage{
+    display: flex;
+    height: 7rem;
+    width: 20rem;
+    margin: 0 0 2rem 2rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+textarea{
+    height: 6rem;
+    width: 23.5rem;
+}
+
+input {
+    display: table-cell;
+    margin-bottom: 2rem;
+    width: 20rem;
+}
+
+.formSubmit{
+    margin: 0 auto;
+}
+
+.formSubmit button{
+    font-family: cursive;
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 1rem;
+    background-color: rgb(175, 218, 255);
+    cursor: pointer;
+}
+
+/* Footer */
+.footerItems{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(75, 77, 77, 0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 3rem;
+}
+
+footer h3{
+    height: 2rem;
+    width: 7rem;
+    font-size: 1rem;
+    margin: 1rem 1rem;
+    text-align: center;
+    font-family: cursive;
+}
+
+/* Responsive */
+
+@media screen and (min-width:1001px) and (max-width:1300px){
+    .photo{
+        height: 70rem;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+    
+    .milford{
+        grid-row: 1 / span 1;
+        grid-column: 1/ span 1;
+    }
+        
+    .hokitika{
+        grid-row: 1 / span 1;
+        grid-column: 2/ span 1;
+    }
+    
+    .pancakeRocks{
+        grid-row: 1 / span 1;
+        grid-column: 3/ span 1;
+    }
+   
+    .queenstown{
+        grid-row: 2 / span 1;
+        grid-column: 1/ span 1;
+    }
+     
+    .glenorchy{
+        grid-row: 2 / span 1;
+        grid-column: 2/ span 1;
+    }
+
+    .glacier{
+        grid-row: 2 / span 1;
+        grid-column: 3/ span 1;
+    }
+   
+    .bluePools{
+        grid-row: 3 / span 1;
+        grid-column: 1/ span 1;
+    }
+ 
+    .lakeMapourika{
+        grid-row: 3 / span 1;
+        grid-column: 2/ span 1;
+    } 
+
+    .tekapo{
+        grid-row: 3 / span 1;
+        grid-column: 3/ span 1;
+    }
+
+    .hobbiton{
+        grid-row: 4 / span 1;
+        grid-column: 1/ span 1;
+    }
+
+    .wanaka{
+        grid-row: 4 / span 1;
+        grid-column: 2/ span 1;
+    }
+
+    .rotorua{
+        grid-row: 4 / span 1;
+        grid-column: 3/ span 1;
+    }
+}
+
+@media screen and (max-width:1000px){
+    /* Introduction */
+    .introduction{
+        font-size: .75rem;
+    }
+
+    .photo{
+        height: 120rem;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+    
+    .milford{
+        grid-row: 1 / span 1;
+        grid-column: 1/ span 1;
+    }
+    
+    .hokitika{
+        grid-row: 1 / span 1;
+        grid-column: 2/ span 1;
+    }
+
+    .pancakeRocks{
+        grid-row: 2 / span 1;
+        grid-column: 1/ span 1;
+    }
+   
+    .queenstown{
+        grid-row: 2 / span 1;
+        grid-column: 2/ span 1;
+    }
+ 
+    .glenorchy{
+        grid-row: 3 / span 1;
+        grid-column: 1/ span 1;
+    }
+   
+    .glacier{
+        grid-row: 3 / span 1;
+        grid-column: 2/ span 1;
+    }
+    
+    .bluePools{
+        grid-row: 4 / span 1;
+        grid-column: 1/ span 1;
+    }
+ 
+    .lakeMapourika{
+        grid-row: 4 / span 1;
+        grid-column: 2/ span 1;
+    } 
+
+    .tekapo{
+        grid-row: 5 / span 1;
+        grid-column: 1/ span 1;
+    }
+
+    .hobbiton{
+        grid-row: 5 / span 1;
+        grid-column: 2/ span 1;
+    }
+
+    .wanaka{
+        grid-row: 6 / span 1;
+        grid-column: 1/ span 1;
+    }
+
+    .rotorua{
+        grid-row: 6 / span 1;
+        grid-column: 2/ span 1;
+    }
+
+}
