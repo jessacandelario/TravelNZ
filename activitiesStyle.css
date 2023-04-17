@@ -154,14 +154,14 @@ footer h3{
 }
 
 @media screen and (max-width:1000px){
-    .onsenSpa, .glacierHeliHike, .tekapoSprings, .milfordCruise{
+    .onsenSpa, .glacierHeliHike, .tekapoSprings, .milfordCruise, .hobbiton{
         flex-direction: column;
     }
 
-    .onsenImage, .tekapoImage, .glacierImage, .milfordImage{
+    .onsenImage, .tekapoImage, .glacierImage, .milfordImage, .hobbitonImage{
         width: 100%;
     }
-    .onsenInfo, .tekapoInfo, .glacierInfo, .milfordInfo{
+    .onsenInfo, .tekapoInfo, .glacierInfo, .milfordInfo, .hobbitonInfo{
         margin-top: 1rem;
         width: 100%;
     }
